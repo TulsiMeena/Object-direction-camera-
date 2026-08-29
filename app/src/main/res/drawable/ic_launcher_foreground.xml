@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer Viewfinder Corner Brackets (Cyan) -->
+    <!-- Top-Left -->
+    <path
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M26,38 V28 H36" />
+    <!-- Top-Right -->
+    <path
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M72,28 H82 V38" />
+    <!-- Bottom-Left -->
+    <path
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M26,70 V80 H36" />
+    <!-- Bottom-Right -->
+    <path
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M82,70 V80 H72" />
+
+    <!-- Center Camera Lens Ring (Electric Cyan & Amber) -->
+    <path
+        android:strokeColor="#0284C7"
+        android:strokeWidth="2.5"
+        android:pathData="M54,36 A18,18 0 1 0 54,72 A18,18 0 1 0 54,36" />
+    <path
+        android:fillColor="#0284C7"
+        android:pathData="M54,43 A11,11 0 1 0 54,65 A11,11 0 1 0 54,43" />
+    <!-- Core Lens Flare / Pupil (Bright White) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,48 A6,6 0 1 0 54,60 A6,6 0 1 0 54,48" />
+
+    <!-- AI Target Laser Crosshairs & Motion Direction Accents -->
+    <path
+        android:strokeColor="#F59E0B"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M54,23 V29 M54,79 V85 M23,54 H29 M79,54 H85" />
+    <path
+        android:strokeColor="#F59E0B"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M77,50 L84,54 L77,58" />
+</vector>

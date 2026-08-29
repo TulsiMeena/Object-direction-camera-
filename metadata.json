@@ -1,0 +1,6 @@
+{
+  "name": "Advanced Vision Studio",
+  "description": "Real-time AI vision studio with local object detection, motion direction tracking, 21-joint hand pose air drawing, and AR 3D house scanning.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
