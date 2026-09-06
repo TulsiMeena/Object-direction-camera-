@@ -379,7 +379,7 @@ fun CameraScreen(
                     OutlinedButton(
                         onClick = { showSettingsSheet = true },
                         modifier = Modifier.testTag("quick_settings_button"),
-                        border = ButtonDefaults.outlinedButtonBorder.copy(
+                        border = ButtonDefaults.outlinedButtonBorder(enabled = true).copy(
                             brush = Brush.horizontalGradient(listOf(CyanPrimary, CyanDark))
                         ),
                         shape = RoundedCornerShape(10.dp)
@@ -509,7 +509,7 @@ fun CameraScreen(
                                 context.startActivity(intent)
                             },
                             shape = RoundedCornerShape(12.dp),
-                            border = ButtonDefaults.outlinedButtonBorder.copy(
+                            border = ButtonDefaults.outlinedButtonBorder(enabled = true).copy(
                                 brush = Brush.horizontalGradient(listOf(CyanPrimary, CyanDark))
                             ),
                             modifier = Modifier.testTag("open_settings_button")

@@ -53,6 +53,9 @@ class MainActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        try {
+            java.io.File(filesDir, "com.google.mlkit.acceleration").mkdirs()
+        } catch (_: Exception) {}
         enableEdgeToEdge()
         setContent {
             AdvancedVisionTheme {

@@ -184,18 +184,18 @@ val STUDIO_FEATURES = listOf(
 
 @Composable
 fun HomeScreen(
-    onOpenObjectCamera: () -> Unit,
-    onOpenHandTracking: () -> Unit,
-    onOpenHouseScan: () -> Unit,
-    onOpenMeasure: () -> Unit,
-    onOpenObjectTracking: () -> Unit,
-    onOpenSmartDetect: () -> Unit,
-    onOpenColorDetector: () -> Unit,
-    onOpenCompass: () -> Unit,
-    onOpenPersonTracking: () -> Unit,
-    onOpenAnimalDetection: () -> Unit,
-    onOpenPerformanceMonitor: () -> Unit,
-    onOpenSettings: () -> Unit,
+    onOpenObjectCamera: () -> Unit = {},
+    onOpenHandTracking: () -> Unit = {},
+    onOpenHouseScan: () -> Unit = {},
+    onOpenMeasure: () -> Unit = {},
+    onOpenObjectTracking: () -> Unit = {},
+    onOpenSmartDetect: () -> Unit = {},
+    onOpenColorDetector: () -> Unit = {},
+    onOpenCompass: () -> Unit = {},
+    onOpenPersonTracking: () -> Unit = {},
+    onOpenAnimalDetection: () -> Unit = {},
+    onOpenPerformanceMonitor: () -> Unit = {},
+    onOpenSettings: () -> Unit = {},
     modifier: Modifier = Modifier
 ) {
     Surface(

@@ -27,7 +27,16 @@ class GreetingScreenshotTest {
                 HomeScreen(
                     onOpenObjectCamera = {},
                     onOpenHandTracking = {},
-                    onOpenHouseScan = {}
+                    onOpenHouseScan = {},
+                    onOpenMeasure = {},
+                    onOpenObjectTracking = {},
+                    onOpenSmartDetect = {},
+                    onOpenColorDetector = {},
+                    onOpenCompass = {},
+                    onOpenPersonTracking = {},
+                    onOpenAnimalDetection = {},
+                    onOpenPerformanceMonitor = {},
+                    onOpenSettings = {}
                 )
             }
         }
